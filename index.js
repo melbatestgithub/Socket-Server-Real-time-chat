@@ -1,6 +1,6 @@
 const io = require("socket.io")(5800, {
     cors: {
-        origin: ["http://localhost:3000", "http://localhost:3001"],
+        origin: ["http://localhost:3000", "https://it-portal-self.vercel.app"],
     }
 });
 
